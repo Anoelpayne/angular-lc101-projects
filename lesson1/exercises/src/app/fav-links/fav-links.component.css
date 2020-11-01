@@ -1,0 +1,17 @@
+h3 {
+    text-decoration: underline;
+    color: green;
+    text-align: center;
+}
+
+.links {
+    align-self: center;
+    font-family: fantasy;
+    font-size: x-large;
+}
+
+ul {
+    display: table; 
+    margin: 0 auto;
+    text-align: left;
+}

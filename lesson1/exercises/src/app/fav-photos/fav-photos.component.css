@@ -1,11 +1,13 @@
 h3 {
    color: brown;
+   text-decoration: underline;
 }
 
 img {
    width:  100px;
    height: 100px;
    object-fit: cover;  
+   padding-block: 10px;
 }
 
 .photos {
