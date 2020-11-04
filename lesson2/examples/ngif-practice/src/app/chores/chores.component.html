@@ -1,14 +1,13 @@
-<div class="chores">
+<div class="chores" *ngIf ='chores.length > finishedChores.length'>
     <h3>Chores</h3>
-    <ul>
-        <li *ngFor = 'let chore of chores'>{{chore}}</li>
-    </ul>
+        <p style="color:blueviolet">Work Harder!</p>
 </div>
-<hr>
+
 <div class="doneChores">
     <h3>Done Chores</h3>
     <ul>
         <li *ngFor = 'let done of finishedChores'>{{done}}</li>
     </ul>
 </div>
+
 <hr>
